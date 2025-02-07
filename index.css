@@ -1,0 +1,46 @@
+body {
+    margin:0;
+    font-family:cursive ;
+     background-color:rgb(255,125, 0);
+}
+.navbar{
+     
+    position: fixed;
+    top: 0;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    transition-duration: 0.5s;
+}
+.navbar .scrolled {
+    color:rgb(140,50,0);
+} 
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin:0;
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+.navbar ul li a hover {
+    color: yellow;
+}
+header , section {
+    padding: 100px;
+    text-align: center;
+}
+header {
+    height: 40vh;
+    background: linear-gradient(to right ,rgb(255,140,0),rgb(255,69,0));
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section {
+    background:linear-gradient(to right ,rgb(61, 160, 74),rgb(228, 231, 14));
+    margin:20px 0;
+}
